@@ -200,28 +200,28 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="AspNetRole.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="AspNetUser.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="AspNetUserClaim.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="AspNetUserLogin.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="CaseType.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Country.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="Court.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="FB4.Context.cs">
       <AutoGen>True</AutoGen>
@@ -239,20 +239,20 @@
       <DependentUpon>FB4.edmx</DependentUpon>
     </Compile>
     <Compile Include="Feedback.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="ModelFB4.Context.cs">
+    <Compile Include="Model44.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelFB4.Context.tt</DependentUpon>
+      <DependentUpon>Model44.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="ModelFB4.cs">
+    <Compile Include="Model44.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -260,7 +260,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="UserFeedback.cs">
-      <DependentUpon>ModelFB4.tt</DependentUpon>
+      <DependentUpon>Model44.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -280,14 +280,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="ModelFB4.Context.tt">
+    <Content Include="Model44.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ModelFB4.Context.cs</LastGenOutput>
+      <LastGenOutput>Model44.Context.cs</LastGenOutput>
       <DependentUpon>FB4.edmx</DependentUpon>
     </Content>
-    <Content Include="ModelFB4.tt">
+    <Content Include="Model44.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ModelFB4.cs</LastGenOutput>
+      <LastGenOutput>Model44.cs</LastGenOutput>
       <DependentUpon>FB4.edmx</DependentUpon>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
